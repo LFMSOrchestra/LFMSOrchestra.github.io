@@ -8,6 +8,8 @@
 
   <!-- iOS Web App meta tags -->
   <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120-precomposed.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152-precomposed.png">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
@@ -21,7 +23,8 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
-  <title>LFMS Orchestra</title>
+  <title>Testing Songs | LFMS Orchestra</title>
+  <meta name="description" content="Download testing song practice accompinament for LFMS Orchestra students in MIDI and MP3 formats." />
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="stylesheet" href="/css/style.css">
   <link href="https://file.myfontastic.com/cJUCmsbSFJyecU42P2mCr8/icons.css" rel="stylesheet">
@@ -68,26 +71,28 @@
     <div class="col-lg">
       <h1>Download Testing Song Files</h1>
       <div>
-        <ul class="nav nav-tabs" id="midiDownloads" role="tablist">
-          <li class="nav-item">
-            <a class="nav-link active" id="level3-tab" data-toggle="tab" href="#level3" role="tab" aria-controls="level3" aria-expanded="true">6<sup>th</sup> Grade (Level 3)</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="level4-tab" data-toggle="tab" href="#level4" role="tab" aria-controls="level4">7<sup>th</sup> Grade (Level 4)</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="level5-tab" data-toggle="tab" href="#level5" role="tab" aria-controls="level5">8<sup>th</sup> Grade (Level 5)</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="dl_all-tab" data-toggle="tab" href="#dl_all" role="tab" aria-controls="dl_all">Download All (.zip)</a>
-          </li>
-        </ul>
+        <div style="margin-bottom: 1rem;">
+          <ul class="nav nav-pills" id="midiDownloads" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="level3-tab" data-toggle="tab" href="#level3" role="tab" aria-controls="level3" aria-expanded="true">6<sup>th</sup> Grade (Level 3)</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="level4-tab" data-toggle="tab" href="#level4" role="tab" aria-controls="level4">7<sup>th</sup> Grade (Level 4)</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="level5-tab" data-toggle="tab" href="#level5" role="tab" aria-controls="level5">8<sup>th</sup> Grade (Level 5)</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="dl_all-tab" data-toggle="tab" href="#dl_all" role="tab" aria-controls="dl_all">Download All (.zip)</a>
+            </li>
+          </ul>
+        </div>
 
         <!-- Tab panes -->
         <div class="tab-content" id="midiDownloadsContent">
           <!-- 6th Grade -->
           <div class="tab-pane fade show active" id="level3" role="tabpanel" aria-labelledby="level3-tab">
-            <table class="table table-bordered table-hover">
+            <table class="table table-bordered table-hover table-sm">
               <thead>
                 <tr>
                   <th>Song</th>
@@ -248,7 +253,7 @@
 
           <!-- 7th Grade -->
           <div class="tab-pane fade" id="level4" role="tabpanel" aria-labelledby="level4-tab">
-            <table class="table table-bordered table-hover">
+            <table class="table table-bordered table-hover table-sm">
               <thead>
                 <tr>
                   <th>Song</th>
@@ -373,7 +378,7 @@
 
           <!-- 8th Grade -->
           <div class="tab-pane fade" id="level5" role="tabpanel" aria-labelledby="level5-tab">
-            <table class="table table-bordered table-hover">
+            <table class="table table-bordered table-hover table-sm">
               <thead>
                 <tr>
                   <th>Song</th>
@@ -443,7 +448,7 @@
           </div>
 
           <div class="tab-pane fade" id="dl_all" role="tabpanel" aria-labelledby="dl_all-tab">
-            <table class="table table-bordered table-hover">
+            <table class="table table-bordered table-hover table-sm">
               <thead>
                 <tr>
                   <th>Grade</th>

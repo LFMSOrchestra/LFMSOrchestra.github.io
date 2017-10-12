@@ -1,4 +1,4 @@
 AuthType Basic
-AuthName "Please inquire with Joseph Geis for username/password. It is also posted on the announcements whiteboard."
+AuthName "Please inquire with Joseph Geis for username/password. It is also posted by the computer in A102."
 AuthUserFile /Users/joseph/LFMSOrchestra/.htpasswd
 Require valid-user
